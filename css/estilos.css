@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+}
+.navbar-custom {
+    background-color: #343a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+.container-main {
+    margin-top: 80px;
+    padding: 20px;
+}
+.btn-custom {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.table-custom {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-custom {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-custom label {
+    font-weight: bold;
+}
+.card-custom {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
